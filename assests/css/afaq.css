@@ -1,0 +1,536 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    height: 2800px;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+
+
+
+.main-header{
+    
+    width: 1023px;
+    height: 140px;
+    margin-right: 186px ;
+    padding-top: 10px;
+    position: relative;
+}
+
+.logo-header{
+    float: right;
+    width: 180px;
+    height: 90px;   
+}
+.logo-header>a{
+   float: left;
+    
+}
+
+
+
+.main-header>hr{
+    width: 1030px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+.btn-header {
+  
+    margin-right: 10px;
+    width: 126px;
+    height: 25px;
+    border: 1px blue solid; 
+    border-radius: 100px;
+    background-color: #3585AC;
+    color: white;
+    font-size: 12px;
+ 
+}
+.btn-header:hover{
+    background-color: white;
+    border: 1px blue solid; 
+    color: #1CA1F2;
+}
+
+.top-header>p{
+    float: left;
+    display: inline;
+    margin: 5px;
+    font-size: 16px;
+    color: #666971;
+}
+
+.top-header>p>span{
+    color: #3585AC;
+    
+}
+
+.bottom-header{
+    
+    height: 50px;
+   
+   
+
+}
+
+.bottom-header>ul{
+    position: relative;
+    padding: 0;
+    width: 100%;
+
+}
+
+.bottom-header>ul>li{
+    float: right;
+    display: inline;
+    padding: 10px 10px 0 10px;
+    
+    font-size: 15px;
+    
+    
+
+}
+.bottom-header>ul>li>a{
+    color: #666971;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none;
+    margin: 7px;
+    
+}
+
+
+.icons{
+
+    font-size: 15px;
+    margin: 5px;
+    margin-right: 5px;
+    color: #666971;
+    position: relative;
+   
+
+}
+
+.sm-icons-header{
+    
+    width: 25px;
+    height: 25px;
+    border: 1px solid #666971;
+    border-radius: 50%;
+    float: left;
+    display: inline;
+    margin: 3px;
+    
+}
+
+.sm-icons-header>a>i{
+    text-decoration: none;
+}
+
+.img-english{
+    float: left;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#facebook:hover{
+    background-color: #3C5998;
+    
+}
+
+#youtube:hover{
+    background-color: #F94340;
+}
+
+#instagram:hover{
+    background-color: #E05438;
+
+}
+
+#twitter:hover{
+    background-color: #1CA1F2;
+
+}
+
+.sm-icons-header:hover >a>i{
+    color: white;
+}
+
+
+.information{
+    position: relative;
+    margin-top: 40px;
+    height: 620px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80);
+    background-size: cover;
+    
+}
+
+.information-form{
+    position: relative;
+    float: left;
+    margin-left: 45px;
+    width: 344px;
+    height: inherit;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.700);
+    text-align: center;
+    visibility: hidden;
+ 
+}
+
+.information-form>h1{
+    font-weight: 700;
+
+}
+
+.information-form>h1>span{
+    background-color: #3585AC;
+    
+}
+.information-form>form>input , #select-uni{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    color: rgb(143, 139, 139);
+    padding: 10px;
+}
+
+#select-uni {
+    background-color: white;
+}
+
+#wanted-degree{
+    width: 300px;
+    height: 100px;
+    
+}
+
+.btn-submit-form{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #4C7B99;
+    color: #FFFFFF;
+    font-size: 15px;
+    border: none;
+}
+
+.btn-submit-form:hover{
+    background-color: #E76739;
+}
+
+.right-direction{
+    margin-top: 280px;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(143, 139, 139);
+    border: 1px white solid;
+    text-align: center;
+    margin-right: 18px;
+    visibility:hidden;
+}
+
+.right-direction>i{
+    margin-top: 7px;
+    color: white;
+    font-size: 25px;
+    
+
+    
+}
+.right-direction:hover{
+    background-color: black;
+    cursor: pointer;
+    border: 1px white solid;
+    
+}
+
+.left-direction{
+    margin-top: 280px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(143, 139, 139);
+    border: 1px white solid;
+    text-align: center;
+    margin-left: 18px;
+    visibility:hidden;
+
+}
+
+.left-direction>i{
+    margin-top: 7px;
+    color: white;
+    font-size: 25px;
+
+    
+}
+
+.left-direction:hover{
+    background-color: black;
+    cursor: pointer;
+    border: 1px white solid;
+    
+}
+
+.box-one{
+    position: absolute;
+    width: 615px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.700);
+  
+    margin-top: 150px;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 20px;
+    margin-right: -12px;
+    visibility: hidden;
+    
+    
+    
+}
+
+.box-two{
+    position: absolute;
+    float: left;
+    width: 640px;
+    height: 160px;
+    background-color: #3585AC;
+    margin-top: 425px;
+    margin-right: 520px;
+    font-size: 23px;
+    color: white;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 20px;
+    border-right: 2px solid white;
+    visibility: hidden;
+   
+}
+
+.mycontainer{
+    width: 1195px;
+    height: 250px;
+    margin: auto;
+}
+
+.three-divs{
+    width: 340px;
+    height: 190px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    float: right;
+    background-color: #3184AD;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+  
+    
+    
+}
+
+.three-divs>h1{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.one{
+    margin-right: 0;
+   
+}
+
+
+.one:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #3183AD;
+ 
+
+}
+
+.three-divs:hover >img{
+    filter: brightness(50%);
+    
+    
+    
+}
+.two{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.two:hover{
+    background-color: white;
+    cursor: pointer;
+    color: #3183AD;
+
+}
+
+.three{
+    background-color: #E76839;
+}
+
+.three:hover{
+    background-color: white;
+    color: #3183AD;
+   
+}
+
+.imgs{
+    margin-top: 15px;
+}
+
+
+.who-we{
+    height: 650px;
+    width: 100%;
+    background-color: #3284AE;
+    text-align: center;
+    color: white;
+    margin: 0;
+    position: relative;
+    
+    
+
+}
+.who-we>img{
+    align-items: center;
+    
+}
+
+
+.who-we>h1{
+    font-size: 30px;
+    padding-top: 50px;
+    font-weight: 800;
+
+}
+
+
+.info-who-we{
+    width: 550px;
+    height: 320px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: absolute;
+    margin: 20px 30px 20px 20px;
+    
+    
+}
+
+.video-who-we{
+    float: left;
+    position: relative;
+    margin: 20px 0 20px 20px;
+    
+}
+.info-who-we>p{
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 400;
+    text-align: right;
+    padding: 40px 10px 10px 20px;
+}
+
+.know-more{
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: 1px white dashed;
+    width: 155px;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 450px;
+    margin-right: 250px;
+    position: absolute;
+}
+
+.programs{
+    width: 100%;
+    height: 575px;
+    background-color: #3284AE
+}
+.programs-divs>h1{
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    font-weight: 700;
+    padding-right: 40px;
+    padding-top: 20px;
+
+}
+.programs-divs{
+    width: 25%;
+    height: 100%;
+    position: relative;
+    float: right;
+    z-index: 7;
+    
+}
+.programs-divs>p{
+    color: white;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-right: 40px;
+    position: relative;
+    z-index: 8;
+
+}
+
+.two-p{
+    margin-top: 40px;
+}
+
+.one-div{
+    background-color: #42505D;
+}
+
+.two-div{
+    background-color: #3084AE;
+
+}
+
+.three-div{ 
+    background-color: #BFBFC7;
+}
+
+.four-div{
+    background-color: #4C5155;
+}
+.btn-program-divs-all{
+    position: relative;
+    z-index: 10;
+    
+
+    
+}
+.btn-programs-divs{
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ECECEC;
+    color: #9B9B9B;
+    margin-right: 70px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    
+
+}
+
