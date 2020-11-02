@@ -6,6 +6,6 @@ I used HTML, CSS and javascript.
 
 This cloning is made in June 2019.
 
-![screenshot] (./app_screenshot.png)
+![screenshot](./app_screenshot.png)
 
 Live preview (https://raw.githack.com/AhmedAmin90/oldProjects-cloning-afaq-page/feature/afaq.html)
